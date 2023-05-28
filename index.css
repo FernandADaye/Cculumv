@@ -31,6 +31,12 @@ body{
     background-color: #989BA6;
     flex-direction: column;
 }
+img{
+    display: flex;
+    border-radius: 50%;
+    width: 98%;
+    height: 98%;
+}
 #nombre{
     display: flex;
     justify-content: center;
@@ -39,7 +45,18 @@ body{
     height: 98%;
     flex-direction: column; 
     background-image: url(wallpapers-iphone-xr-fondos-de-pantalla-4k-hd-max-apple-ios-nuevos-originales-9\ _\ Imágenes\ Bonitas\ Gratis.jpg);
-
+}
+#uno{
+    background-color: #04131ac0;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 50px;
+    color: aliceblue;
+}
+#dos{
+    background-color: #04131ac0;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    color: aliceblue;
 }
 .segundo{
     display: flex;
