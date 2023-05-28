@@ -7,45 +7,86 @@ body{
     display: flex;
     width: 100vw;
     height:100vh;
-background-color: aqua;
 }
 .conten{
-    background-color: rgb(37, 39, 38);
     height: 100%;
     width: 100%;
+    background-color: rgb(100, 0, 0);
 }
 #primera-secc{
     display: flex;
     height: 25%;
-    background-color: aqua;
 }
 #foto{
+    display: flex;
     width: 15%;
     height: 100%;
-    background-color: rgb(29, 56, 56);
+    background-color: rgb(147, 148, 158);
     align-items: center;
     justify-content: center;
     justify-items: center;
-    justify-content: center;
-    align-items: center;
 }
 img{
-    width: 59%;
+    display: flex;
+    width: 64%;
     height: 100%;
     border-radius: 50%;
     align-items: center;
     justify-content: center;
 }
 #nombre{
+    display: flex;
     width: 85%;
+    height:98%;
     background-image: url(wallpapers-iphone-xr-fondos-de-pantalla-4k-hd-max-apple-ios-nuevos-originales-9\ _\ Imágenes\ Bonitas\ Gratis.jpg);
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+}
+#name{
+    display: flex;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+    color: aliceblue;
+    background-color: rgba(1, 25, 29, 0.678);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+#data{
+    display: flex;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    color: aliceblue;
+    background-color: rgba(1, 25, 29, 0.678);
+    padding: 10px;
+    border-radius: 10px;
 }
 #segunda-secc{
     display: flex;
-    height: 74%;
-    background-color: blue;
+    height: 100%;
+    width: 100vw;
 }
 #menu{
+    display: flex;
+    flex-direction: column;
     width: 15%;
-    background-color: aquamarine;
+    height: 100%;
+    background-color: rgb(6, 34, 46);
+    color: aliceblue;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+}
+.contac{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#me{
+    display: flex;
+    height: 100%;
+    width: 85%;
+    background-color: rgb(213, 213, 216);
 }
