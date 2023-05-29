@@ -116,7 +116,28 @@ a:visited {
 
 #me{
     display: flex;
+    text-align: center;
+    flex-direction: column;
     height: 100%;
     width: 85%;
     background-color: rgb(213, 213, 216);
+}
+li{
+    list-style:none;
+}
+.subdatos{
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Instrument Sans', sans-serif;
+    font: 30px;
+}
+.parrafos{
+    display: flex;
+    margin-top: 5px;
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+    font-family: 'Didact Gothic', sans-serif;
 }
