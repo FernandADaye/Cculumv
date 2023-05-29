@@ -68,6 +68,9 @@ img{
     height: 100%;
     width: 100vw;
 }
+#contacto-menu{
+    font-family: 'Exo 2', sans-serif;
+}
 #menu{
     display: flex;
     flex-direction: column;
@@ -77,12 +80,39 @@ img{
     color: aliceblue;
     font-family: 'Inconsolata', monospace;
     text-align: center;
+    padding-top: 15px;
+
 }
 .contac{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    padding-top: 15px;
 }
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+    transition-duration: 1000ms;
+}
+a:link {
+    color: #ffffff;
+}
+a:visited {
+    color: #ffffff;
+}
+
+.info{
+    font-size: 15px;
+    transition-duration: 1000ms;
+
+}
+.info:hover{
+    background-color: rgb(68, 0, 0);
+    transition-duration: 1000ms;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 
 #me{
     display: flex;
